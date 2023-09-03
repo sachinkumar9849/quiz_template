@@ -57,11 +57,16 @@ const LoginForm = () => {
                         />
                       </div>
                     </div>
-                    <div className="quiz_wrap__btn">
+
+                    <div className="quiz_wrap__btn mb-4">
                       <Link to="/resultPage">
-                        <button type="button" className="start_btn mx-auto">
-                          Continue
-                        </button>
+                        <div className="start_btn quiz_ans__btn mt-5">
+                          <button type="button" className="p-0 mx-auto">
+                            <div className="quiz_btn__ans__text p-3">
+                              <p>Continue</p>
+                            </div>
+                          </button>
+                        </div>
                       </Link>
                     </div>
                   </div>
